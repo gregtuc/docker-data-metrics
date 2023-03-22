@@ -3,6 +3,7 @@
 small program to collect data on a docker container and make it available on a webserver
 
 ## Try it out:
+
 ---
 
 Spin up a docker container using the below command(s) in cmd/terminal:
@@ -17,7 +18,7 @@ Alternatively, start your own Docker container + name and change the name value 
 
 ---
 
-`cd docker-data-metrics` then `go run .`
+Clone the repository then execute `go get .` and then `go run .` from within the project directory.
 
 ## Testing:
 
